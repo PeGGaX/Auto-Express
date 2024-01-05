@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>bus-norway</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-top">
+            <a href="index.html" class="header__logo">
+              <img src="img/logo.png" alt="logo" />
+            </a>
+            <ul class="header-top__list">
+              <li class="header-top__item">
+                <a href="">Пассажирам</a>
+              </li>
+              <li class="header-top__item">
+                <a href="">Новости</a>
+              </li>
+              <li class="header-top__item">
+                <a href="">Справочная</a>
+              </li>
+            </ul>
+            <a href="+79522951040" class="header-top__phone">
+              <img src="img/phone.svg" alt="icon" />
+              <p>+7 952 295 10 40</p>
+            </a>
+            <div class="header-top__buttons">
+              <button
+                type="button"
+                class="header-top__button header-top__button--active"
+              >
+                Ru
+              </button>
+              <button type="button" class="header-top__button">En</button>
+            </div>
+            <button type="button" class="header-top__login">
+              <img src="img/login.svg" alt="icon" />Войти
+            </button>
+            <button type="button" class="header__button">
+              <img src="img/menu.svg" alt="icon" />
+            </button>
+          </div>
+          <div class="header-bot">
+            <div class="header-bot__address">
+              <img src="img/marker.svg" alt="icon" />
+              <p>г. Мурманск, ул. Дзержинского, д. 8, офис 1</p>
+            </div>
+            <div class="header-bot__time">
+              <img src="img/clock.svg" alt="icon" />
+              <p>Москва <span id="moscow"></span></p>
+              <p>Осло <span id="oslo"></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="header-menu">
+          <button type="button" class="header-menu__close">
+            <img src="img/close.svg" alt="icon" />
+          </button>
+          <ul class="header-menu__list">
+            <li class="header-menu__item">
+              <a href="">Пассажирам</a>
+            </li>
+            <li class="header-menu__item">
+              <a href="">Новости</a>
+            </li>
+            <li class="header-menu__item">
+              <a href="">Справочная</a>
+            </li>
+          </ul>
+          <div class="header-menu__buttons">
+            <button
+              type="button"
+              class="header-menu__button header-menu__button--active"
+            >
+              Ru
+            </button>
+            <button type="button" class="header-menu__button">En</button>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="top">
+          <div class="container">
+            <h1 class="top__title">
+              Автобусные перевозки <span>в Норвегию</span>
+              <p>
+                Комфортабельные автобусы по маршруту
+                <span> Мурманск — Киркенес — Мурманск</span>
+              </p>
+            </h1>
+<div id="app"></div>
+
+          </div>
+        </section>
+        <section class="ticket">
+          <div class="container-fluid">
+            <div class="ticket-content">
+              <h1 class="section-title">Как купить билет</h1>
+              <div class="ticket-inner">
+                <div class="ticket__item">
+                  <img src="img/ticket1.svg" alt="icon" />
+                  <h3>Прочитайте правила продажи билетов</h3>
+                  <p>
+                    Ознакомьтесь с правилами продажи и возрата билетов
+                    для граждан РФ, Украины и других государств
+                  </p>
+                </div>
+                <div class="ticket__item">
+                  <img src="img/ticket2.svg" alt="icon" />
+                  <h3>Выберите рейс и трансфер</h3>
+                  <p>
+                    Проверьте время и место вашего прибытия/отправления.
+                    Если у вас возникнут вопросы о времени прибытия в аэропорт
+                    свяжитесь с перевозчиком
+                  </p>
+                </div>
+                <div class="ticket__item">
+                  <img src="img/ticket3.svg" alt="icon" />
+                  <h3>Купите билет на автобус</h3>
+                  <p>
+                    Введите данные пассажира, оплатите билет и распечатайте его
+                  </p>
+                </div>
+                <div class="ticket__item">
+                  <img src="img/ticket4.svg" alt="icon" />
+                  <h3>Билет готов</h3>
+                  <p>
+                    Пожалуйста, после поездки оставьте отзыв — это улучшит
+                    качество обслуживания
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contacts">
+          <div class="container">
+            <h1 class="section-title">Контакты</h1>
+            <div class="contacts-content">
+              <div class="contacts-left">
+                <h1 class="section-title">Контакты</h1>
+                <div class="contacts__item">
+                  <h3>Адрес офиса:</h3>
+                  <p>г. Мурманск, ул. Дзержинского, д. 8, офис 1</p>
+                </div>
+                <div class="contacts__item">
+                  <h3>Телефон</h3>
+                  <a href="tel:+79522951040">+7 952 295 10 40</a>
+                  <a href="tel:+79113033320">+7 911 303 33 20</a>
+                  <a href="tel:+79113033328">+7 911 303 33 28</a>
+                </div>
+                <div class="contacts__item">
+                  <h3>Электронная почта</h3>
+                  <a href="mailto:rubusnor@gmail.com">rubusnor@gmail.com</a>
+                </div>
+              </div>
+              <div class="contacts-right">
+                <iframe
+                  src="https://yandex.ru/map-widget/v1/?um=constructor%3Ace3dd61cdeb0bdb2528a2e6c70ae7eb51e5a09e14d7b086f0def4a473d8ff71e&amp;source=constructor"
+                  width="100%"
+                  height="443"
+                  frameborder="0"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <a class="footer__logo" href="index.html"
+              ><img src="img/logo.png" alt="logo"
+            /></a>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="">Пассажирам</a>
+              </li>
+              <li class="footer__item">
+                <a href="">Новости</a>
+              </li>
+              <li class="footer__item">
+                <a href="">Справочная</a>
+              </li>
+            </ul>
+            <a href="tel:+79522951040" class="footer__phone">
+              <img src="img/phone-yellow.svg" alt="icon" />
+              <p>+7 952 295 10 40</p>
+            </a>
+          </div>
+          <p class="footer__text">© Авто-Экспресс, 2023</p>
+        </div>
+      </footer>
+    </div>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

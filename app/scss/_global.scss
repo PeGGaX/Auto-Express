@@ -1,0 +1,103 @@
+html,
+body {
+  height: 100%;
+}
+img {
+  max-width: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.main {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+.container {
+  max-width: 1246px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container-fluid {
+  max-width: 1425px;
+  margin: 0 auto;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+* ::before,
+* ::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  cursor: pointer;
+}
+input,
+textarea {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: $dark;
+  overflow-x: hidden;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.breadcrumbs {
+  font-size: 15px;
+  line-height: 140%;
+  padding-top: 30px;
+  & a,
+  p {
+    display: inline-block;
+  }
+  & a {
+    color: $grey;
+  }
+}
+
+.hidden {
+  display: none;
+}

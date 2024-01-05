@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>bus-norway</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-top">
+            <a href="index.html" class="header__logo">
+              <img src="img/logo.png" alt="logo" />
+            </a>
+            <ul class="header-top__list">
+              <li class="header-top__item">
+                <a href="">Пассажирам</a>
+              </li>
+              <li class="header-top__item">
+                <a href="">Новости</a>
+              </li>
+              <li class="header-top__item">
+                <a href="">Справочная</a>
+              </li>
+            </ul>
+            <a href="+79522951040" class="header-top__phone">
+              <img src="img/phone.svg" alt="icon" />
+              <p>+7 952 295 10 40</p>
+            </a>
+            <div class="header-top__buttons">
+              <button
+                type="button"
+                class="header-top__button header-top__button--active"
+              >
+                Ru
+              </button>
+              <button type="button" class="header-top__button">En</button>
+            </div>
+            <button type="button" class="header-top__login">
+              <img src="img/login.svg" alt="icon" />Войти
+            </button>
+            <button type="button" class="header__button">
+              <img src="img/menu.svg" alt="icon" />
+            </button>
+          </div>
+          <div class="header-bot">
+            <div class="header-bot__address">
+              <img src="img/marker.svg" alt="icon" />
+              <p>г. Мурманск, ул. Дзержинского, д. 8, офис 1</p>
+            </div>
+            <div class="header-bot__time">
+              <img src="img/clock.svg" alt="icon" />
+              <p>Москва <span id="moscow"></span></p>
+              <p>Осло <span id="oslo"></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="header-menu">
+          <button type="button" class="header-menu__close">
+            <img src="img/close.svg" alt="icon" />
+          </button>
+          <ul class="header-menu__list">
+            <li class="header-menu__item">
+              <a href="">Пассажирам</a>
+            </li>
+            <li class="header-menu__item">
+              <a href="">Новости</a>
+            </li>
+            <li class="header-menu__item">
+              <a href="">Справочная</a>
+            </li>
+          </ul>
+          <div class="header-menu__buttons">
+            <button
+              type="button"
+              class="header-menu__button header-menu__button--active"
+            >
+              Ru
+            </button>
+            <button type="button" class="header-menu__button">En</button>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="breadcrumbs">
+          <div class="container">
+            <a href="index.html">Главная /</a>
+            <p>Справочная</p>
+          </div>
+        </div>
+        <section class="info">
+          <div class="container">
+            <div class="info-content">
+              <div class="info__buttons">
+                <button
+                  data-info="1"
+                  type="button"
+                  class="info__button info__button--active"
+                >
+                  Условия возврата
+                </button>
+                <button data-info="2" type="button" class="info__button">
+                  Дарим купон 50 ₽
+                </button>
+                <button data-info="3" type="button" class="info__button">
+                  Безопасность платежей
+                </button>
+                <button data-info="4" type="button" class="info__button">
+                  Политика персональных данных
+                </button>
+                <button data-info="5" type="button" class="info__button">
+                  Пользовательское соглашение
+                </button>
+              </div>
+              <div class="info-inner">
+                <div id="text-1" class="info__text">
+                  <div>
+                    <h3>Условия возврата</h3>
+                    <p>
+                      Условия возврата отличаются для разных перевозчиков.
+                      Вы можете узнать условия возврата билета на конкретный
+                      рейс до приобретения билета на нашем сайте.
+                    </p>
+                  </div>
+                  <div>
+                    <h3>Сроки возврата</h3>
+                    <p>
+                      Возврат денежных средств осуществляется
+                      на ту же банковскую карту, с которой производился платёж.
+                      Возврат денежных средств на карту осуществляется в срок
+                      от 5 до 10 банковских дней, в зависимости от банка,
+                      которым была выпущена банковская карта.
+                    </p>
+                  </div>
+                </div>
+                <div id="text-2" class="info__text hidden">
+                  <div>
+                    <h3>2Условия возврата</h3>
+                    <p>
+                      Условия возврата отличаются для разных перевозчиков.
+                      Вы можете узнать условия возврата билета на конкретный
+                      рейс до приобретения билета на нашем сайте.
+                    </p>
+                  </div>
+                  <div>
+                    <h3>Сроки возврата</h3>
+                    <p>
+                      Возврат денежных средств осуществляется
+                      на ту же банковскую карту, с которой производился платёж.
+                      Возврат денежных средств на карту осуществляется в срок
+                      от 5 до 10 банковских дней, в зависимости от банка,
+                      которым была выпущена банковская карта.
+                    </p>
+                  </div>
+                </div>
+                <div id="text-3" class="info__text hidden">
+                  <div>
+                    <h3>3Условия возврата</h3>
+                    <p>
+                      Условия возврата отличаются для разных перевозчиков.
+                      Вы можете узнать условия возврата билета на конкретный
+                      рейс до приобретения билета на нашем сайте.
+                    </p>
+                  </div>
+                  <div>
+                    <h3>Сроки возврата</h3>
+                    <p>
+                      Возврат денежных средств осуществляется
+                      на ту же банковскую карту, с которой производился платёж.
+                      Возврат денежных средств на карту осуществляется в срок
+                      от 5 до 10 банковских дней, в зависимости от банка,
+                      которым была выпущена банковская карта.
+                    </p>
+                  </div>
+                </div>
+                <div id="text-4" class="info__text hidden">
+                  <div>
+                    <h3>4Условия возврата</h3>
+                    <p>
+                      Условия возврата отличаются для разных перевозчиков.
+                      Вы можете узнать условия возврата билета на конкретный
+                      рейс до приобретения билета на нашем сайте.
+                    </p>
+                  </div>
+                  <div>
+                    <h3>Сроки возврата</h3>
+                    <p>
+                      Возврат денежных средств осуществляется
+                      на ту же банковскую карту, с которой производился платёж.
+                      Возврат денежных средств на карту осуществляется в срок
+                      от 5 до 10 банковских дней, в зависимости от банка,
+                      которым была выпущена банковская карта.
+                    </p>
+                  </div>
+                </div>
+                <div id="text-5" class="info__text hidden">
+                  <div>
+                    <h3>5Условия возврата</h3>
+                    <p>
+                      Условия возврата отличаются для разных перевозчиков.
+                      Вы можете узнать условия возврата билета на конкретный
+                      рейс до приобретения билета на нашем сайте.
+                    </p>
+                  </div>
+                  <div>
+                    <h3>Сроки возврата</h3>
+                    <p>
+                      Возврат денежных средств осуществляется
+                      на ту же банковскую карту, с которой производился платёж.
+                      Возврат денежных средств на карту осуществляется в срок
+                      от 5 до 10 банковских дней, в зависимости от банка,
+                      которым была выпущена банковская карта.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <a class="footer__logo" href="index.html"
+              ><img src="img/logo.png" alt="logo"
+            /></a>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="">Пассажирам</a>
+              </li>
+              <li class="footer__item">
+                <a href="">Новости</a>
+              </li>
+              <li class="footer__item">
+                <a href="">Справочная</a>
+              </li>
+            </ul>
+            <a href="tel:+79522951040" class="footer__phone">
+              <img src="img/phone-yellow.svg" alt="icon" />
+              <p>+7 952 295 10 40</p>
+            </a>
+          </div>
+          <p class="footer__text">© Авто-Экспресс, 2023</p>
+        </div>
+      </footer>
+    </div>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
